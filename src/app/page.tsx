@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Coffee, Heart, Award, Clock, MapPin, Star } from "lucide-react";
 
-import TestimonialsPage from "./menu/page";
+import TestimonialsPage from "./review/page";
 import FAQPage from "./menu/page";
 import PartnersPage from "./delivered/page";
 import Link from "next/link";

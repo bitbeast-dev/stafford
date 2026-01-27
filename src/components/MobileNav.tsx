@@ -65,9 +65,9 @@ export default function MobileNav() {
             <div className="flex flex-col space-y-1 px-4 py-4">
               {[
                 { href: "/", label: "Home" },
-                { href: "/courses", label: "Menu" },
-                { href: "/internships", label: "Our Story" },
-                { href: "/prepared", label: "Reviews" },
+                { href: "/menu", label: "Menu" },
+                { href: "/story", label: "Our Story" },
+                { href: "/review", label: "Reviews" },
                 { href: "/about", label: "About" }
               ].map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setIsOpen(false)} className="text-[#e0dbd4] hover:text-[#4f2d1d] hover:bg-[#4f2d1d]/10 px-4 py-3 text-sm font-semibold rounded-lg transition-all">
