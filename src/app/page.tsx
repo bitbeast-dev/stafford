@@ -11,13 +11,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Coffee, Heart, Award, Clock, MapPin, Star } from "lucide-react";
 
-import TestimonialsPage from "./prepared/page";
-import FAQPage from "./packaged/page";
+import TestimonialsPage from "./menu/page";
+import FAQPage from "./menu/page";
 import PartnersPage from "./delivered/page";
 import Link from "next/link";
 import InternshipModal from "@/components/InternshipModal";
 
-const page = () => {
+export default function Page() {
   const [activeFeature, setActiveFeature] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedInternship, setSelectedInternship] = useState("");
@@ -44,7 +44,7 @@ const page = () => {
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
     }, 4000);
     return () => clearInterval(slideInterval);
-  }, []);
+  }, [heroImages.length]);
 
   const features = [
     { icon: Coffee, title: "Premium Beans", description: "100% Rwandan Arabica" },
@@ -100,9 +100,9 @@ const page = () => {
               Scafford Coffee
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-center text-[#e0dbd4] mb-8 animate-in slide-in-from-bottom duration-1500 delay-300">
-              Rwanda's Finest Coffee Experience
+              Rwanda&apos;s Finest Coffee Experience
             </p>
-            <p className="text-lg text-[#e0dbd4]/90 text-center max-w-2xl px-4 mb-8 playfair italic">
+            <p className="text-lg text-[#e0dbd4]/90 text-center max-w-2xl px-4 mb-8">
               From the volcanic soils of Rwanda to your cup - Experience coffee crafted with passion, tradition, and excellence
             </p>
             <Link href="/learn">
@@ -257,6 +257,4 @@ const page = () => {
       />
     </div>
   );
-};
-
-export default page;
+}

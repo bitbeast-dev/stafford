@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const poppins = Poppins({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["700", "800"],
   variable: "--font-poppins",
