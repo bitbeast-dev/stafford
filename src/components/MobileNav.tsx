@@ -18,7 +18,7 @@ export default function MobileNav() {
               <img src="/logo.png" alt="Scafford Coffee" className="relative w-12 h-12 md:w-14 md:h-14 object-cover rounded-full ring-2 ring-[#e0dbd4] group-hover:scale-110 transition-transform"/>
             </div>
             <div className="hidden sm:flex flex-col">
-              <span className="text-lg md:text-xl font-bold text-[#e0dbd4] group-hover:text-[#4f2d1d] transition-colors">Scafford</span>
+              <span className="text-lg md:text-xl font-bold text-[#e0dbd4] group-hover:text-[#4f2d1d] transition-colors">Stafford</span>
               <span className="text-xs md:text-sm text-[#e0dbd4]/70 font-medium">Coffee Rwanda</span>
             </div>
           </Link>

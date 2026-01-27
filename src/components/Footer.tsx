@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Scafford Coffee</h3>
+            <h3 className="text-xl font-bold mb-4">Stafford Coffee</h3>
             <p className="text-[#e0dbd4]/70 text-sm">Rwanda's finest coffee experience, crafted with passion and tradition.</p>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
         {/* Bottom Border */}
         <div className="border-t border-[#4f2d1d]/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#e0dbd4]/60">
-            <p>&copy; 2024 Scafford Coffee Rwanda. All rights reserved.</p>
+            <p>&copy; 2024 Stafford Coffee Rwanda. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link href="#" className="hover:text-[#4f2d1d] transition-colors">Privacy Policy</Link>
               <Link href="#" className="hover:text-[#4f2d1d] transition-colors">Terms of Service</Link>

@@ -8,7 +8,7 @@ const InternshipsPage = () => {
     {
       year: "2008",
       title: "The Beginning",
-      description: "Scafford Coffee opened its doors in Kigali with a simple mission: to showcase Rwanda's exceptional coffee to the world.",
+      description: "Stafford Coffee opened its doors in Kigali with a simple mission: to showcase Rwanda's exceptional coffee to the world.",
       icon: Coffee
     },
     {
@@ -44,7 +44,7 @@ const InternshipsPage = () => {
     },
     {
       title: "A Gathering Place",
-      description: "More than a coffee shop, Scafford is where culture thrives. From art exhibitions to coffee tastings, we create experiences that bring people together.",
+      description: "More than a coffee shop, Stafford is where culture thrives. From art exhibitions to coffee tastings, we create experiences that bring people together.",
       image: "/FGKPFWxXIAIKdyj.jfif"
     }
   ];

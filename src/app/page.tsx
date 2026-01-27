@@ -97,7 +97,7 @@ export default function Page() {
           ))}
           <div className="absolute inset-0 bg-gradient-to-t from-[#32462f]/90 via-[#32462f]/50 to-transparent flex flex-col items-center justify-center z-10">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-bold text-[#e0dbd4] mb-4 pacifico animate-in slide-in-from-top duration-1500">
-              Scafford Coffee
+              Stafford Coffee
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-center text-[#e0dbd4] mb-8 animate-in slide-in-from-bottom duration-1500 delay-300">
               Rwanda&apos;s Finest Coffee Experience

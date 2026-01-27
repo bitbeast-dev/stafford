@@ -21,7 +21,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Scafford Coffee Rwanda",
+  title: "Stafford Coffee Rwanda",
   description: "Experience the finest Rwandan coffee - Crafted with passion, served with love",
 };
 

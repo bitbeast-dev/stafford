@@ -41,10 +41,10 @@ const AboutPage = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-[#4f2d1d] mb-6">
-            About Scafford Coffee
+            About Stafford Coffee
           </h1>
           <p className="text-xl text-[#32462f] max-w-4xl mx-auto leading-relaxed playfair italic">
-            Born from a passion for exceptional coffee and Rwandan heritage, Scafford Coffee has been 
+            Born from a passion for exceptional coffee and Rwandan heritage, Stafford Coffee has been 
             serving the finest coffee experience in Kigali since our founding. We're more than just a 
             coffee shop - we're a celebration of Rwanda's rich coffee culture and a gathering place for 
             coffee lovers from around the world.
@@ -97,7 +97,7 @@ const AboutPage = () => {
               <p className="text-[#32462f] leading-relaxed">
                 To become Africa's most innovative coffee destination, setting new standards for 
                 quality, service, and community engagement. We envision a future where Rwandan 
-                coffee is celebrated globally, and Scafford Coffee is synonymous with excellence.
+                coffee is celebrated globally, and Stafford Coffee is synonymous with excellence.
               </p>
             </CardContent>
           </Card>
@@ -127,7 +127,7 @@ const AboutPage = () => {
           <h2 className="text-3xl font-bold text-center text-[#4f2d1d] mb-6">Our Story</h2>
           <div className="max-w-4xl mx-auto text-[#32462f] leading-relaxed space-y-4">
             <p>
-              Scafford Coffee began with a simple dream: to create a space where the exceptional 
+              Stafford Coffee began with a simple dream: to create a space where the exceptional 
               quality of Rwandan coffee could shine. From the volcanic soils of Rwanda's highlands 
               to our carefully crafted brews, every cup tells a story of passion, tradition, and 
               innovation.
@@ -139,7 +139,7 @@ const AboutPage = () => {
               that benefit our entire community.
             </p>
             <p>
-              Today, Scafford Coffee stands as more than just a coffee shop. We're a cultural hub, 
+              Today, Stafford Coffee stands as more than just a coffee shop. We're a cultural hub, 
               an art gallery, a workspace, and a gathering place for coffee enthusiasts from around 
               the world. Open 24/7, we're here whenever you need that perfect cup of coffee.
             </p>
@@ -152,7 +152,7 @@ const AboutPage = () => {
             Experience the Difference
           </h2>
           <p className="text-[#32462f] mb-8 max-w-2xl mx-auto">
-            Visit us today and discover why Scafford Coffee is Kigali's premier coffee destination. 
+            Visit us today and discover why Stafford Coffee is Kigali's premier coffee destination. 
             Your perfect cup awaits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
