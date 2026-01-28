@@ -105,7 +105,7 @@ export default function Page() {
             <p className="text-lg text-[#e0dbd4]/90 text-center max-w-2xl px-4 mb-8">
               From the volcanic soils of Rwanda to your cup - Experience coffee crafted with passion, tradition, and excellence
             </p>
-            <Link href="/learn">
+            <Link href="/menu">
               <Button className="bg-[#4f2d1d] text-[#e0dbd4] font-bold px-10 py-6 text-lg rounded-full hover:bg-[#32462f] hover:scale-105 transition-all shadow-xl">
                 Order Now <ArrowRight className="ml-2" />
               </Button>
