@@ -196,7 +196,7 @@ export default function Page() {
                 <CardContent className="pt-0 pb-3 md:pb-4">
                   <div className="flex justify-between items-center">
                     <span className="text-lg md:text-xl font-bold text-[#32462f]">{coffee.price}</span>
-                    <Link href="/learn">
+                    <Link href="/menu">
                       <Button size="sm" className="bg-[#4f2d1d] hover:bg-[#32462f] text-[#e0dbd4]">
                         Order
                       </Button>
@@ -232,10 +232,6 @@ export default function Page() {
                   <p className="text-[#32462f] mb-3 md:mb-4 italic text-xs md:text-sm">{specialty.notes}</p>
                   <Button 
                     className="bg-[#4f2d1d] hover:bg-[#32462f] text-[#e0dbd4] w-full text-sm md:text-base py-2 md:py-3"
-                    onClick={() => {
-                      setSelectedInternship(specialty.name);
-                      setIsModalOpen(true);
-                    }}
                   >
                     Order Now
                   </Button>
