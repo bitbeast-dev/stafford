@@ -41,7 +41,7 @@ export default function MobileNav() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link href="/learn">
+            <Link href="/menu">
               <Button className="bg-gradient-to-r from-[#4f2d1d] to-[#6b3d2a] text-[#e0dbd4] font-bold px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-[#4f2d1d]/50 hover:scale-105 transition-all duration-300 flex items-center gap-2 border border-[#e0dbd4]/20">
                 <Coffee className="w-4 h-4" />
                 Order Now
@@ -74,7 +74,7 @@ export default function MobileNav() {
                   {item.label}
                 </Link>
               ))}
-              <Link href="/learn" onClick={() => setIsOpen(false)}>
+              <Link href="/menu" onClick={() => setIsOpen(false)}>
                 <Button className="w-full bg-gradient-to-r from-[#4f2d1d] to-[#6b3d2a] text-[#e0dbd4] font-bold py-3 rounded-full hover:shadow-lg mt-3 flex items-center justify-center gap-2">
                   <Coffee className="w-4 h-4" />
                   Order Now
